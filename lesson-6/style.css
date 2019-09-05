@@ -1,0 +1,13 @@
+body {
+  background: url("back.jpg");
+}
+.first {
+  background: #00ffde;
+  color: #ff0f00;
+}
+.second{
+  color: #ff6000;
+}
+.third{
+  color: darkblue;
+}
