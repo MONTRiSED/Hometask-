@@ -3,64 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <title>Home Pizza</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="./style/style.css" type="text/css">
 </head>
 <body>
 <form action="http://fe.it-academy.by/TestForm.php" method="post">
   <h1>Персональные данные</h1>
 
-  <p>Вам есть 18:</p><br/>
+  <p>Вам есть 18:</p>
 
   <input type="radio" checked name="age" value="1"/>Да
 
   <input type="radio" name="age" value="2"/>Нет <br/>
 
-  <p>Ваше Имя:</p><br/>
+  <p>Ваше Имя:</p>
   <input
     class="first"
     type="text"
     name="name"
     required placeholder="Иван"/> <br/>
 
-  <p>Ваша фамилия:</p><br/>
+  <p>Ваша фамилия:</p>
   <input
     class="first"
     type="text"
     name="surname"
     required placeholder="Иванов"/> <br/>
 
-  <p>Номер телефона:</p><br/>
+  <p>Номер телефона:</p>
   <input type="tel"
-         class="first"
+         class="form-input"
          name="phone"
          pattern="\+[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
          required placeholder="+111-22-333-22-22"/> <br/>
 
-  <p>E-mail:</P>​<br/>
-  <input class="first"
+  <p>E-mail:</P>​
+  <input class="form-input"
          type="email"
          name="email"
          required placeholder="tratatai@post.la"/> <br/>
 
-  <p>Логин:</p><br/>
-  <input class="first"
+  <p>Логин:</p>
+  <input class="form-input"
          type="text"
          name="username"
          maxlength="12"
          pattern="[A-Za-z]{4-12}"
          required placeholder="login"/> <br/>​
-  <p>Пароль:</P> <br/>
-  <input class="first"
+  <p>Пароль:</P>
+  <input class="form-input"
          type="password"
          name="password"
          required placeholder="password"
          maxlength="7"
          pattern="[A-Za-z-0-9]{7}"/><br/>
 
-  <h1>Заказ пиццы</h1> <br/>
+  <h1>Заказ пиццы</h1>
 
   <h2>Пицца</h2>
-  <div class="second">
+  <div class="checkbox">
     <input type="checkbox" name="peperoni" value="yes"/> Пеперонни ​<br>​
     <input type="checkbox" name="4-cheese" value="yes"/> 4 сыра​<br>​
     <input type="checkbox" name="tereyaki" value="yes"/> Тереяки ​<br>​
@@ -69,17 +69,17 @@
     <input type="checkbox" name="lepeshka" value="yes"/> Лепешка ​<br>​
   </div>
   <h2>Дополнительно</h2>
-  <div class="third">
-    <p>Дополнительный сыр:</p> <br/>
+  <div class="radio">
+    <p>Дополнительный сыр:</p>
     <input type="radio" checked name="cheese" value="1"/>Да
     <input type="radio" name="cheese" value="2"/>Нет <br/>
-    <p>Мясные края:</p><br/>
+    <p>Мясные края:</p>
     <input type="radio" checked name="meat" value="1"/>Да
     <input type="radio" name="meat" value="2"/>Нет <br/>
-    <p>Сырные края:</p><br/>
+    <p>Сырные края:</p>
     <input type="radio" checked name="cheese-2" value="1"/>Да
     <input type="radio" name="cheese-2" value="2"/>Нет <br/>
-    <p>Без соуса:</p><br/>
+    <p>Без соуса:</p>
     <input type="radio" checked name="souse" value="1"/>Да
     <input type="radio" name="souse" value="2"/>Нет <br/>
   </div>

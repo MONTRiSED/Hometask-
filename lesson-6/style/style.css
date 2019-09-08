@@ -1,0 +1,13 @@
+body {
+  background-image: url('../images/back.jpg');
+}
+  .form-input {
+  background: #00ffde;
+  color: #ff0f00;
+}
+.checkbox{
+  color: #ff6000;
+}
+.radio{
+  color: darkblue;
+}
